@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="tarea03" targetName="benchmark" />
+      <config projectName="tarea03" targetName="anpi" />
+      <config projectName="tarea03" targetName="tester" />
+      <config projectName="tarea03" targetName="tarea03" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="514b74c9-4df5-401f-b8d3-e47e8fc45128" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmarks/benchmarkRootFinders.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/benchmarks/benchmarkRootFinders.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/RootBisection.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/RootBisection.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/RootBrent.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/RootBrent.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/RootInterpolation.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/RootInterpolation.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/RootNewtonRaphson.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/RootNewtonRaphson.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/RootRidder.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/RootRidder.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/RootSecant.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/RootSecant.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testRootFinders.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/testRootFinders.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-290377689">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="3" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="952895169">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="2" />
+          <entry key="hpp" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="hpp" value="329" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Doxygen file" value="2" />
+          <entry key="ObjectiveC" value="327" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages">
+        <counts>
+          <entry key="Boost Test" value="18" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1591764957">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="3" />
+          <entry key="hpp" value="1379" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="1382" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages">
+        <counts>
+          <entry key="Boost Test" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="1" />
+          <entry key="hpp" value="5" />
+          <entry key="tpp" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/testMatrix.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4005">
+              <caret line="267" column="24" selection-start-line="267" selection-start-column="24" selection-end-line="267" selection-end-column="24" />
+              <folding>
+                <element signature="e#2271#2318#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/testRootFinders.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/RootBisection.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="46" column="72" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="72" />
+              <folding>
+                <element signature="e#398#414#0" expanded="true" />
+                <element signature="e#1032#1044#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/RootSecant.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/RootNewtonRaphson.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/benchmarks/benchmarkRootFinders.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-879">
+              <caret line="266" column="49" selection-start-line="266" selection-start-column="49" selection-end-line="266" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/PlotPy.tpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/PlotPy.hpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/RootInterpolation.hpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/RootBrent.hpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/include/RootBisection.hpp" />
+        <option value="$PROJECT_DIR$/include/RootSecant.hpp" />
+        <option value="$PROJECT_DIR$/test/testRootFinders.cpp" />
+        <option value="$PROJECT_DIR$/benchmarks/benchmarkRootFinders.cpp" />
+        <option value="$PROJECT_DIR$/include/RootRidder.hpp" />
+        <option value="$PROJECT_DIR$/include/RootNewtonRaphson.hpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="650" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tarea03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tarea03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmarks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tarea03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tarea03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Boost.Test.RootFinders">
+    <configuration name="All in benchmarkRootFinders.cpp" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea03" TARGET_NAME="benchmark" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tarea03" RUN_TARGET_NAME="benchmark" TEST_PATTERN="RootFinders/RootFinders" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in testRootFinders.cpp" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea03" TARGET_NAME="tester" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tarea03" RUN_TARGET_NAME="tester" TEST_PATTERN="RootFinders/Bisection:RootFinders/Interpolation:RootFinders/Secant:RootFinders/NewtonRaphson:RootFinders/Brent:RootFinders/Ridder" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewtonRaphson" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea03" TARGET_NAME="tester" RUN_TARGET_PROJECT_NAME="tarea03" RUN_TARGET_NAME="tester" TEST_CLASS="RootFinders" TEST_METHOD="NewtonRaphson" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RootFinders" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea03" TARGET_NAME="tester" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tarea03" RUN_TARGET_NAME="tester" TEST_CLASS="RootFinders" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="anpi" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea03" TARGET_NAME="anpi" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="benchmark" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea03" TARGET_NAME="benchmark" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tarea03" RUN_TARGET_NAME="benchmark">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tarea03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea03" TARGET_NAME="tarea03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tarea03" RUN_TARGET_NAME="tarea03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tester" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea03" TARGET_NAME="tester" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tarea03" RUN_TARGET_NAME="tester">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.benchmark" />
+      <item itemvalue="Application.anpi" />
+      <item itemvalue="Application.tarea03" />
+      <item itemvalue="Application.tester" />
+      <item itemvalue="Boost.Test.All in testRootFinders.cpp" />
+      <item itemvalue="Boost.Test.RootFinders" />
+      <item itemvalue="Boost.Test.All in benchmarkRootFinders.cpp" />
+      <item itemvalue="Boost.Test.NewtonRaphson" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Boost.Test.RootFinders" />
+        <item itemvalue="Boost.Test.NewtonRaphson" />
+        <item itemvalue="Boost.Test.All in testRootFinders.cpp" />
+        <item itemvalue="Boost.Test.All in benchmarkRootFinders.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="514b74c9-4df5-401f-b8d3-e47e8fc45128" name="Default Changelist" comment="" />
+      <created>1534781422582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534781422582</updated>
+      <workItem from="1534781423979" duration="1700000" />
+      <workItem from="1535466157784" duration="136000" />
+      <workItem from="1535466314440" duration="95000" />
+      <workItem from="1535466411699" duration="194000" />
+      <workItem from="1535466955807" duration="2003000" />
+      <workItem from="1535485759151" duration="64000" />
+      <workItem from="1535497611793" duration="5180000" />
+      <workItem from="1535502851906" duration="713000" />
+      <workItem from="1535514953535" duration="2473000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="NewtonRaphson - 2018.08.28 at 18h 16m 12s.xml">
+      <configuration name="NewtonRaphson" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="NewtonRaphson - 2018.08.28 at 18h 18m 59s.xml">
+      <configuration name="NewtonRaphson" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="NewtonRaphson - 2018.08.28 at 18h 23m 14s.xml">
+      <configuration name="NewtonRaphson" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="NewtonRaphson - 2018.08.28 at 18h 37m 56s.xml">
+      <configuration name="NewtonRaphson" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="NewtonRaphson - 2018.08.28 at 18h 42m 13s.xml">
+      <configuration name="NewtonRaphson" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="NewtonRaphson - 2018.08.28 at 21h 56m 40s.xml">
+      <configuration name="NewtonRaphson" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="NewtonRaphson - 2018.08.28 at 21h 57m 09s.xml">
+      <configuration name="NewtonRaphson" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="NewtonRaphson - 2018.08.28 at 21h 57m 25s.xml">
+      <configuration name="NewtonRaphson" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="NewtonRaphson - 2018.08.28 at 21h 59m 14s.xml">
+      <configuration name="NewtonRaphson" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RootFinders - 2018.08.28 at 22h 26m 40s.xml">
+      <configuration name="RootFinders" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12558000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2753392" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.95758563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3284553" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.96737355" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3284553" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3284553" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/include/RootRidder.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testMain.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testMatrix.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4005">
+          <caret line="267" column="24" selection-start-line="267" selection-start-column="24" selection-end-line="267" selection-end-column="24" />
+          <folding>
+            <element signature="e#2271#2318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/RootInterpolation.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/RootBrent.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/PlotPy.tpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/PlotPy.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testRootFinders.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/RootBisection.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="46" column="72" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="72" />
+          <folding>
+            <element signature="e#398#414#0" expanded="true" />
+            <element signature="e#1032#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/RootSecant.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/RootNewtonRaphson.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarks/benchmarkRootFinders.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-879">
+          <caret line="266" column="49" selection-start-line="266" selection-start-column="49" selection-end-line="266" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

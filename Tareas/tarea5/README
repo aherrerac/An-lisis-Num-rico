@@ -1,0 +1,36 @@
+Intituto Tecnologico de Costa Rica
+Tarea 5
+
+Indicaciones para ejecucion
+
+>Navegar a la carpeta del codigo
+>Ejecutar octave-cli
+>Llamar a las siguientes funciones
+
+1.1)
+
+Ejemplo EDO
+	@(x,y) (x*y*y)
+Ejecucion de la funcion rungekutta4
+
+	[x,y]=rungekutta4(f,xi,xf,y0,h)
+
+donde 
+	f : funcion (Ejemplo EDO)
+	xi: punto inicial x
+	xf: punto final x
+	y0: punto inicial y
+	h : tamano de paso
+1.2)
+
+Graficas del punto 1 
+	rk4graphs 
+
+2.1, 2.2 y 2.3)
+
+Métodos rungekutta4, ode45 y ode23, despliegue de gráfica comparativa, su duración y su cantidad de pasos
+	EDOMethodComparison
+
+2.4)
+
+Los métodos propios del entorno de octave ode23 y ode45 corresponden a métodos de Runge Kutta de tercer y quinto orden respectivamente. Los resultados del punto 2.2 y 2.3 muestran que dichos métodos ofrecen una convergencia más rápida al método implementado, pues alcanzan un valor en menor tiempo que el Runge Kutta de cuarto orden usado. Sin embargo, la convergencia por dichos métodos, al realizarse en menor cantidad de pasos dan como valor un rango que varía entre decimales. Mientras que el método de Runge Kutta implementado, tardando solo un aproximado de entre 0.03 y 0.04 segundos más quelos otros y ejecutando un total de 1001 pasos ofrece una convergencia a un valor cuya varianza es mínima, como se puede observar en el resultado de este método en comparación de los otros en el punto 2.2. Por lo que el método Runge Kutta implementado se muestra como una mejor opción para llegar al resultado de la ecuación y' = 100 - y.
